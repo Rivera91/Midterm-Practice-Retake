@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SOMETHING"
+            android:text="WELCOME"
             android:layout_gravity="center"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -30,7 +30,7 @@
             android:id="@+id/next"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="Next"
+            android:text="ENTER"
             android:gravity="center"
             android:onClick="Next"/>
 
