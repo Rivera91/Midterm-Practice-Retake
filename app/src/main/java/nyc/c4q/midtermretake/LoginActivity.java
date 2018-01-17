@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity {
         save = findViewById(R.id.save);
         submit = findViewById(R.id.Submit);
 
-
+        submit = findViewById(R.id.Submit);
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -70,39 +70,5 @@ public class LoginActivity extends AppCompatActivity {
 }
 
 
-//    public void Submit(View view) {
-//
-//        SharedPreferences.Editor editor = login.edit();
-//        String checkUser = "user@aol.com";
-//        String checkPassword = "password1234";
-//
-//        if (save.isChecked()) {
-//            editor.putString("email", email.getText().toString());
-//            editor.putString("password", password.getText().toString());
-//            editor.putBoolean("isChecked", save.isChecked());
-//            editor.commit();
-//        } else {
-//            editor.putBoolean("isChecked", save.isChecked());
-//            editor.commit();
-//        }
-//        if (email.getText().toString().contains(checkUser) && password.getText().toString().contains(checkPassword)) {
-//            Intent intent = new Intent(LoginActivity.this, ListActivity.class);
-//            intent.putExtra("currentUser", email.getText().toString());
-//            startActivity(intent);
-//        } else {
-//            email.setError("Invalid Email");
-//            password.setError("Invalid Password");
-//            email.requestFocus();
-//            password.requestFocus();
-//        }
-//
-//
-//
-//        if (login.getBoolean("isChecked", false)) {
-//        email.setText(login.getString("username", null));
-//        password.setText(login.getString("password", null));
-//        save.setChecked(login.getBoolean("isChecked", false));
-//        }
-//        }
-//        }
+
 
